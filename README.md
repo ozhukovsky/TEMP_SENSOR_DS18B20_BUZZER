@@ -12,7 +12,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Accurate temperature measurement using DS18B20 (12‑bit resolution)
 - Real‑time temperature display on ST7789 (240×240)
@@ -24,7 +24,7 @@ This project demonstrates:
 
 ---
 
-## 🌡 How It Works
+## How It Works
 
 ### 1. DS18B20 Temperature Reading
 The driver performs:
@@ -65,7 +65,7 @@ Each tone lasts 250 ms.
 
 ---
 
-## 🖥 Example Output
+## Example Output
 
 Display shows:
 
@@ -75,7 +75,7 @@ If temperature > 28°C → buzzer alarm.
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - STM32F103C8T6 (or compatible)
 - DS18B20 temperature sensor
@@ -85,7 +85,7 @@ If temperature > 28°C → buzzer alarm.
 
 ---
 
-## 🛠 Build & Flash
+## Build & Flash
 
 1. Open project in STM32CubeIDE  
 2. Connect hardware according to pinout  
@@ -94,7 +94,7 @@ If temperature > 28°C → buzzer alarm.
 
 ---
 
-## 📌 Pinout Summary
+## Pinout Summary
 
 | Peripheral | STM32 Pin | Notes |
 |-----------|-----------|-------|
@@ -107,7 +107,7 @@ If temperature > 28°C → buzzer alarm.
 
 ---
 
-## 📄 Notes
+## Notes
 
 - 1‑Wire timing implemented using inline assembly microsecond delay  
 - SPI transmission optimized by direct register access  
